@@ -1,0 +1,29 @@
+body {
+	background-color: #e6ffff;
+}
+
+#head{
+
+	background-image: url('sky.jpeg') ;
+	height: 200px;
+	line-height: 100px;
+	text-align: center;
+}
+
+#title{
+	margin-top: 0px;
+	padding-top: 50px;
+	font-size: 50px;
+	text-align: center;
+}
+
+#content{
+	background-color: #f7ffff;
+	margin-left: 100px;
+	margin-right: 100px;
+	margin-top: 10px;
+}
+
+#img{
+	width:400px;
+}

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Contact Catherine Peabody</title>
+		<link rel="stylesheet" type="text/css" href="contactme.css">
+	</head>
+	<body> 
+		<p>Leave me a message!</p>
+		<form id="form">
+			Name: <br>
+			<input type="text" name="name"><br>
+			<br>
+			Email Address: <br>
+			<input type="text" name="email"><br>
+			<br>
+			Message: <br>
+			<textarea name="messge" rows=10 cols=90></textarea><br>
+			<br>
+			<input type="button" value="submit" onclick="onSubmit()">
+		</form>
+
+		<script type="text/javascript">
+			function onSubmit() {
+				alert("I will contatct you back soon!");
+			}
+		</script>
+	</body>
+</html>

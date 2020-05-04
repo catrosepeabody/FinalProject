@@ -1,0 +1,45 @@
+body {
+	background-color: #e6ffff;
+}
+
+#context{
+	text-align: center;
+	margin-top: 15%;
+}
+
+#name{
+	font-family: "Comic Sans MS";
+	font-size: 50px;
+	font-weight: bold;
+}
+
+#intro{
+	font-family: "Comic Sans MS";
+	font-size: 30px;
+}
+
+ul{
+	margin-top: 50px;
+	list-style-type: none;	
+	font-size: 30px;
+
+}
+
+li{
+	display: inline;
+	padding: 16px;
+	border: 3px solid black;
+	border-color: #a3a3ab;
+}
+
+li a{
+	color: black;
+	text-decoration:none
+}
+
+li a:visited { 
+  color: black;
+}
+
+
+
